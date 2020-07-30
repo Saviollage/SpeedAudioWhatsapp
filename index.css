@@ -1,0 +1,8 @@
+.TwoTimesButton {
+    color: var(--panel-header-icon);
+    font-size: 1rem;
+    font-weight: normal;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
