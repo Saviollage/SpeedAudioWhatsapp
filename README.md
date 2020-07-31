@@ -1,7 +1,7 @@
 # SpeedAudio Whatsapp 
 
 
-Google chrome extension that speeds up audio playback on whatsapp web
+Google chrome extension that speeds up audio playback on whatsapp web! [Avaliable here](https://chrome.google.com/webstore/detail/speedaudio-whatsapp/fgkbgmdcaenkphpiiacdffjmjobbopao/related?hl=pt-BR&authuser=0)
 
 <p align="center">
   <img src="screen1.png" width="400">
