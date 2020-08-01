@@ -1,11 +1,15 @@
+
+
+var rateIndex = 0;
+const rates = [1, 1.25, 1.5, 1.75, 2];
+
 const interval = setInterval(() => {
     const header = document.querySelector("._1QUKR");
 
     if (header) {
         clearInterval(interval);
 
-        var rateIndex = 0;
-        const rates = [1, 1.25, 1.5, 1.75, 2];
+
 
         const button = document.createElement('button');
         button.innerHTML = `${rates[rateIndex]}x`;
@@ -26,5 +30,14 @@ const interval = setInterval(() => {
                 audio.playbackRate = rates[rateIndex];
             })
         })
+
     }
 }, 1000);
+
+setInterval(() => {
+    const audios = document.querySelectorAll('audio');
+
+    audios.forEach(audio => {
+        audio.playbackRate = rates[rateIndex];
+    })
+}, 1000)
