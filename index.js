@@ -4,7 +4,7 @@ var rateIndex = 0;
 const rates = [1, 1.25, 1.5, 1.75, 2];
 
 const interval = setInterval(() => {
-    const header = document.querySelector("._1QUKR");
+    const header = document.querySelector("._2O84H");
 
     if (header) {
         clearInterval(interval);
