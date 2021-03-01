@@ -4,7 +4,7 @@
 
 var rateIndex = 0;
 const rates = [1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3, 3.25, 3.5, 3.75, 4];
-console.log("😄 Thanks for using SpeedAudio")
+console.log("😄 Thanks for use SpeedAudio!")
 const interval = setInterval(() => {
 
     const header = document.querySelector('header')
