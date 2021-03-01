@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SpeedAudio Whatsapp",
-  "version": "2.5",
+  "version": "3.0",
   "description": "Controle a velocidade de reprodução do audio do seu whatsapp web com um simples botão!\nBy: Saviollage",
   "icons": {
     "128": "128.png"
