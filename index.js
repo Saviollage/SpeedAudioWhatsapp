@@ -13,7 +13,7 @@ const interval = setInterval(() => {
 
         const button = document.createElement('button');
         button.innerHTML = `${rates[rateIndex]}x`;
-        button.classList.add('NTimesButton');
+        button.classList.add('TwoTimesButton');
         header.appendChild(button);
         button.addEventListener('click', () => {
 
@@ -29,7 +29,6 @@ const interval = setInterval(() => {
                 audio.playbackRate = rates[rateIndex];
             })
         })
-
     }
 }, 1000);
 
